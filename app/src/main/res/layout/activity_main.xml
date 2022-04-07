@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="342dp"
+        android:layout_y="154dp"
+        android:text="Geçme"
+        android:textColor="#4CAF50"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/bass3"
+        android:layout_width="64dp"
+        android:layout_height="73dp"
+        android:layout_x="337dp"
+        android:layout_y="175dp"
+        android:background="@drawable/passgecme"
+        android:onClick="gecme"
+        android:scaleType="centerCrop"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/passgecme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="328dp"
+        android:layout_y="249dp"
+        android:background="#CB322C2C"
+        android:textColor="#4CAF50"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="31dp"
+        android:layout_height="35dp"
+        android:layout_x="148dp"
+        android:layout_y="185dp"
+        app:srcCompat="@drawable/puan" />
+
+    <Button
+        android:id="@+id/yenile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="140dp"
+        android:layout_y="509dp"
+        android:backgroundTint="#58A39C"
+        android:onClick="yenile"
+        android:text="Yenileme"
+        android:textColor="#3E2723" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="12dp"
+        android:fontFamily="cursive"
+        android:freezesText="false"
+        android:text="GUESS GAME "
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/teal_200"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/numara"
+        android:layout_width="273dp"
+        android:layout_height="58dp"
+        android:layout_x="65dp"
+        android:layout_y="331dp"
+        android:background="#AB3E3333"
+        android:ems="10"
+        android:hint="1 - 50 arasi sayi girin"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="#F8F6F6"
+        android:textColorHint="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/tahmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="136dp"
+        android:layout_y="452dp"
+        android:backgroundTint="#58A39C"
+        android:onClick="tahmin"
+        android:text="Tahmin Et"
+        android:textColor="#3E2723"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/joker"
+        android:layout_width="58dp"
+        android:layout_height="71dp"
+        android:layout_x="8dp"
+        android:layout_y="176dp"
+        android:background="@drawable/joker"
+        android:onClick="joker"
+        android:scaleType="centerCrop"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="151dp"
+        android:text="JOKER"
+        android:textColor="#4CAF50"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_x="139dp"
+        android:layout_y="79dp"
+        android:background="#90009688"
+        android:fontFamily="casual"
+        android:text="1-Level"
+        android:textAlignment="center"
+        android:textColor="#D3090F12"
+        android:textColorHint="#191818"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/scour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="186dp"
+        android:layout_y="184dp"
+        android:background="#4CAF50"
+        android:textColor="#4C0000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/jokerhak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="249dp"
+        android:background="#CB322C2C"
+        android:textColor="#4CAF50"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="136dp"
+        android:layout_y="256dp"
+        android:background="#CB322C2C"
+        android:textColor="#ED2840"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/denemehak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="136dp"
+        android:layout_y="304dp"
+        android:background="#CB322C2C"
+        android:textColor="#4CAF50"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/girilansayilar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="65dp"
+        android:layout_y="392dp"
+        android:text=""
+        android:background="#CB322C2C"
+        android:textColor="#4CAF50"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</AbsoluteLayout>

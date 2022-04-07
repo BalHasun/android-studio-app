@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/7.ders.iml" filepath="$PROJECT_DIR$/.idea/modules/7.ders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/7.ders.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/7.ders.app.iml" />
+    </modules>
+  </component>
+</project>
